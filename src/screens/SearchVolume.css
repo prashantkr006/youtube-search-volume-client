@@ -1,0 +1,41 @@
+/* SearchVolume.css */
+.search-volume {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: linear-gradient(to bottom, #007bff, #0056b3);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-button:hover {
+  background: linear-gradient(to bottom, #0056b3, #007bff);
+}
+
+.search-volume-result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
